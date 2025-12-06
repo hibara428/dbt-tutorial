@@ -1,0 +1,41 @@
+# Python bytecode and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Runtime and coverage files
+.pytest_cache/
+.mypy_cache/
+.coverage*
+coverage.xml
+htmlcov/
+
+# dbt generated files
+target/
+dbt_packages/
+dbt_modules/
+logs/
+dbt.log
+*.dbt
+
+# IDE/editor and OS noise
+.DS_Store
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# Local environment secrets
+.env
+.env.*
